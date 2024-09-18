@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BMI Calculator Application ⚖️✨ 
 
-## Getting Started
+Welcome to the **BMI Calculator Application**, part of my **30 Days 30 Projects Challenge**. This app allows users to easily calculate their Body Mass Index (BMI) by inputting their height and weight. Based on the BMI, the app also categorizes users as underweight, normal, overweight, or obese.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Height and Weight Input**: Users can enter their height (in centimeters or meters) and weight (in kilograms).
+- **BMI Calculation**: The app calculates BMI using the formula: 
+BMI = Weight (kg) / (Height (m))^2
+- **BMI Category Display**: After calculating the BMI, the app categorizes the user into one of the following:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building full-stack web applications.
+- **React**: Manages the dynamic UI components and state management.
+- **Tailwind CSS**: Provides utility-first CSS classes for easy styling and responsive design.
+- **shadcn/ui**: A beautifully designed set of Tailwind CSS components for a polished interface.
+- **Vercel**: Used for deploying the BMI Calculator app, ensuring fast and reliable hosting.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+Check out the live demo of the Tip Calculator App on Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+[Live Demo](https://bmi-calculator-nu-nine.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image](https://github.com/user-attachments/assets/27d4da62-cfb6-4d9c-b84e-5847cf6f6099)
